@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Layout</title>
+	<style type="text/css">
+		.relative {
+			position: relative;
+			width:540px;
+			height:420px;
+			margin-left:200px;
+			background-color:black;
+		}
+
+		.absolute {
+			position: absolute;
+			top:20px;
+			left:20px;
+			width:200px;
+			height:100px;
+			background-color:white;
+		}
+
+		.absolute2 {
+			position: absolute;
+			top:160px;
+			left:160px;
+			width:200px;
+			height:100px;
+			background-color:white;
+		}
+
+		.absolute3 {
+			position: absolute;
+			top:300px;
+			left:320px;
+			width:200px;
+			height:100px;
+			background-color:white;
+		}
+
+		.type {
+			font-size:40px;
+  			font-family:athelas;
+  			font-style:italic; 
+  			font-weight:bold;
+  			text-align: center;
+		}
+
+		.time {
+			font-size:20px;
+  			font-family:athelas;
+  			top:450px;
+  			margin-left:200px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="relative">
+		<div class="absolute type">
+			vroom
+		</div>
+		<div class="absolute2 type">
+			vroom
+		</div>
+		<div class="absolute3 type">
+			hop on
+		</div>
+	</div>
+
+	<div class="time">
+		14.03.19 11pm
+	</div>
+
+</body>
+</html>
