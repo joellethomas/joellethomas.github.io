@@ -11,7 +11,9 @@
 			position: fixed;
 			bottom:0px;
 			right:230px;
-			color:#edf3c8;
+			color:#fcfdca;
+			background:#d64dc9;
+			padding:10px;
 
 		}
 
@@ -21,15 +23,19 @@
 			position: fixed;
 			top:0px;
 			left:100px;
-			color:#edf3c8;
+			color:#fcfdca;
+			background:#d64dc9;
+			padding:10px;
+
 
 		}
 
 		.image {
 			width:800px;
 			margin:auto;
-  			box-shadow: 5px 5px 5px #666;
-  			background-color: lightgray;
+  			box-shadow: 5px 5px 5px yellow;
+  			background-color: yellow;
+
 		}
 
 		.emoji {
@@ -40,13 +46,31 @@
 			right:10px;
 		}
 
+
 		img {
 			width:100%;
 		}
 
 		body {
 			background-color:pink;
-		}
+		animation-name:colourUG;
+  		animation-duration:1000ms;
+ 		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+  		animation-direction: alternate;
+}
+
+@keyframes colourUG {
+  
+  from {
+   background-color: #95ff39;
+  }
+  
+  to {
+  background-color: #277473;
+  }
+  
+  
 
 	</style>
 </head>

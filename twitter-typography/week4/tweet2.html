@@ -3,12 +3,63 @@
 <head>
 	<title>Week 4</title>
 	<style type="text/css">
-		
+		.title {
+			font-size: 200px;
+			font-family:courier;
+		}
+
+		.block {
+			width: 20px;
+			height: 100;
+			background-color:blue;
+		}
+		.image {
+					width:800px;
+					margin:auto;
+		  			box-shadow: 5px 5px 5px #666;
+		  			background-color: lightgray;
+		  			 animation-name: rotate;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    top
+				}
+		img {
+					width:100%;
+				}
+
+					.rotate {
+    position: absolute;
+    font-family: stanley;
+    font-weight: bolder;
+    font-size: 400px;
+    top: 30px;
+    color: blue;
+    animation-name: rotate;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+	@keyframes rotate {
+	0% {left: 0px;}
+	100% {left:0px;
+	transform: rotate(360deg);
+	}}
 
 
 	</style>
 </head>
 <body>
+
+	<div class="title">trams are running in sections</div>
+	<div class="image">
+		<img src="images4/tram.png">
+	</div>
+
+	<div class="rotate">journey</div>
 
 
 
