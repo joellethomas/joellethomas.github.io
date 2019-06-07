@@ -22,49 +22,6 @@ img {
 	/*outline:1px solid yellow;*/
 }
 
-img {
-	mix-blend-mode: exclusion;
-}
-
-.popup {
-	position: absolute;
-	/*display: none;*/
-	opacity:0;
-}
-
-.popup:hover {
-	opacity: 1;
-}
-
-/*.active {
-	opacity:1;
-}*/
-
-.p1 {
-	top:280px;
-	left:300px;
-	width:300px;
-	
-}
-
-.p2 {
-	top:180px;
-	left:60px;
-	width:500px;
-	
-}
-
-.p3 {
-	top:100px;
-	right:60px;
-	width:300px;
-}
-
-.p4 {
-	top:260px;
-	right:160px;
-	width:300px;
-}
 
 .netnotify {
 	position: fixed;
