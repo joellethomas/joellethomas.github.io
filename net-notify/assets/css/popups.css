@@ -1,0 +1,41 @@
+.popup {
+	position: absolute;
+	
+	/*display: none;*/
+}
+
+.p1 {
+	top:280px;
+	left:300px;
+	width:300px;
+}
+
+.p2 {
+	top:180px;
+	left:60px;
+	width:500px;
+}
+
+.p3 {
+	top:180px;
+	left:60px;
+	width:300px;
+}
+
+.p4 {
+	top:250px;
+	left:300px;
+	width:300px;
+}
+
+.p5 {
+	top:250px;
+	left:300px;
+	width:300px;
+}
+
+.p6 {
+	top:250px;
+	left:300px;
+	width:300px;
+}
