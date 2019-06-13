@@ -67,16 +67,40 @@ img {
 }
 
 .abouttext {
-	font-size: 25px;
+	font-size: 18px;
 	/*color:#ffec9a;*/
 	color:yellow;
 	top:630px;
 	position:absolute;
 	padding:10px;
 	z-index: 4;
-	width:50%;
+	width:420px;
 	font-family: stanley;
 }
+
+.highlight {
+	color:red;
+
+  animation-name:colourUG;
+  animation-duration:1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes colourUG {
+  
+  from {
+    color: yellow;
+  }
+  
+  to {
+    color: red;
+  }
+  
+  
+}
+
 
 .buttons {
 	font-family: stanley;
