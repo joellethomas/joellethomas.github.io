@@ -10,8 +10,12 @@ body {
 
 
 a {
-	color:#000;
+	color:yellow;
 	text-decoration: none;
+}
+
+a:hover {
+	color:red;
 }
 
 img {
@@ -32,6 +36,10 @@ img {
 	color:yellow;
 	position: center;
 
+}
+
+.netnotify:hover {
+	color:red;
 }
 
 .title {
