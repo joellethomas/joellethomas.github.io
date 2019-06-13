@@ -1,13 +1,11 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
-	background-image: url("images/ex3.jpg");
   	background-size: cover;
   	background-color: #1c1d1e; #/*345467*/
   	z-index: 0;
+  	height: 100%;
 }
-
-
 
 a {
 	color:yellow;
@@ -22,10 +20,15 @@ img {
 	width:100%;
 }
 
-* {
-	/*outline:1px solid yellow;*/
-}
 
+.bigimage {
+	width:100%;
+	height:100%;
+	position:fixed;
+	bottom:50px;
+
+
+}
 
 .netnotify {
 	position: fixed;
@@ -33,13 +36,15 @@ img {
 	padding:10px;
 	width:50%;
 	height:50px;
-	color:red;
+	color:yellow;
 	position: center;
+	z-index: 4;
 
 }
 
 .netnotify:hover {
 	color:red;
+	z-index: 4;
 }
 
 .title {
@@ -59,6 +64,8 @@ img {
 	top:630px;
 	position:absolute;
 	padding:10px;
+	font-family:stanley;
+	z-index: 4;
 
 }
 
@@ -69,10 +76,11 @@ img {
 	top:630px;
 	position:absolute;
 	padding:10px;
+	z-index: 4;
 }
 
 .buttons {
-	font-family: arial;
+	font-family: stanley;
 	color:yellow;
 	text-align: left;
 	font-size:20px;
@@ -80,6 +88,7 @@ img {
 	top:0px;
 	padding:10px;
 	position: fixed;
+	z-index: 4;
 
 }
 
@@ -89,46 +98,8 @@ img {
 }
 
 
-.masthead {
-  background-size:cover;
-  background-repeat:no-repeat;
-  height:100vh;
-  width:100vw;
-}
-
-.overlay {
-	
-}
-
-.overlay img {
-
-}
-
 .twopage .col {
 	height:100vh;
 	overflow:scroll;
 }
 
-.align-bottom {
-	
-}
-
-.justify-right {
-	
-}
-
-.align-center {
-	
-}
-
-.fours {
-	font-size:14px;
-}
-
-.offset-left {
-	margin-left:25%;
-}
-
-.sources a{
-	display: block;
-}

@@ -9,7 +9,7 @@ img {
 }
 
 .popup:hover {
-	opacity: 1;
+	opacity: 0.9;
 }
 
 .active {
@@ -20,6 +20,11 @@ img {
 	top:50px;
 	left:50px;
 	width:100px;
+}
+
+.hov:hover {
+	z-index:1;
+	mix-blend-mode: normal;
 }
 
 .book2 {
