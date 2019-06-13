@@ -54,6 +54,15 @@ img {
 
 }
 
+.abouttext {
+	font-size: 21px;
+	/*color:#ffec9a;*/
+	color:yellow;
+	top:630px;
+	position:absolute;
+	padding:10px;
+}
+
 .buttons {
 	font-family: arial;
 	color:yellow;
