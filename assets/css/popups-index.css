@@ -5,7 +5,6 @@ img {
 .popup {
 	position: absolute;
 	opacity:0;
-
 }
 
 .popup:hover {
@@ -20,14 +19,12 @@ img {
 	top:280px;
 	left:200px;
 	width:170px;
-	
 }
 
 .p2 {
 	top:180px;
 	left:160px;
 	width:170px;
-	
 }
 
 .p3 {
@@ -253,8 +250,3 @@ img {
 	left:1090px;
 	width:160px;
 }
-
-
-
-
-

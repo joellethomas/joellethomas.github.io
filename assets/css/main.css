@@ -2,7 +2,7 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
   	background-size: cover;
-  	background-color: #1c1d1e; #/*345467*/
+  	background-color: #1c1d1e; 
   	z-index: 0;
   	height: 100%;
 }
@@ -26,8 +26,6 @@ img {
 	height:100%;
 	position:fixed;
 	bottom:50px;
-
-
 }
 
 .netnotify {
@@ -39,7 +37,6 @@ img {
 	color:yellow;
 	position: center;
 	z-index: 4;
-
 }
 
 .netnotify:hover {
@@ -70,13 +67,15 @@ img {
 }
 
 .abouttext {
-	font-size: 21px;
+	font-size: 25px;
 	/*color:#ffec9a;*/
 	color:yellow;
 	top:630px;
 	position:absolute;
 	padding:10px;
 	z-index: 4;
+	width:50%;
+	font-family: stanley;
 }
 
 .buttons {
@@ -96,7 +95,6 @@ img {
 	border-radius: 80px;
 	text-align: center;
 }
-
 
 .twopage .col {
 	height:100vh;
