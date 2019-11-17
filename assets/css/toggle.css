@@ -16,11 +16,13 @@
 .toggle-content {
 	display: none;
 	font-family: helvetica,Arial,sans-serif;
+
 }
 
 .toggle-project {
 	cursor: pointer;
 	font-family: helvetica,Arial,sans-serif;
+
 }
 
 .details {
