@@ -3,26 +3,29 @@
 .title {
 	font-size: 15vw;
 	text-align: center;
-	font-family: helvetica;
+	font-family: helvetica,Arial,sans-serif;
 /*	font-weight:bold;*/
 }
 
 .toggle-title {
 	border-top:2px solid #000;
 	cursor: pointer;
-	font-family: helvetica;
+	font-family: helvetica,Arial,sans-serif;
 }
 
 .toggle-content {
 	display: none;
-	font-family: helvetica;
+	font-family: helvetica,Arial,sans-serif;
 }
 
 .toggle-project {
 	cursor: pointer;
-	font-family: helvetica;
+	font-family: helvetica,Arial,sans-serif;
 }
 
+.details {
+	padding:10px;
+}
 
 /*img {
    display: none
@@ -33,7 +36,8 @@ img i {
 }*/
 
 img {
-	width:600px;
+	width:400px;
+	padding:10px;
 }
 
 /*span:hover + img{
