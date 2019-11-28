@@ -1,11 +1,13 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
+	background-color: black;
 }
 
 a {
-	color:#000;
+	color:white;
 	text-decoration: none;
+
 }
 
 img {
@@ -16,11 +18,13 @@ img {
 .title {
 	font-size: 30vw;
 	text-align: center;
+	color:white;
 }
 
 .interaction .content {
 	box-shadow: 10px 10px 10px gray;
-	background-color: lightgray;
+	background-color: lightgray
+	color:white;
 }
 
 /*slide in from left*/
@@ -54,11 +58,13 @@ img {
 	margin-bottom:-50%;
 	transition:0.5s;
 	overflow-y:scroll;
+	color:white;
 }
 
 .menu.left {
 	margin-bottom:0%;
 	transition:0.5s;
+	color:white;
 }
 
 .popup-link {

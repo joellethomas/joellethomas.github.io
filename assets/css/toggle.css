@@ -4,6 +4,7 @@
 	font-size: 15vw;
 	text-align: center;
 	font-family: helvetica,Arial,sans-serif;
+	color:white;
 /*	font-weight:bold;*/
 }
 
@@ -11,22 +12,26 @@
 	border-top:2px solid #000;
 	cursor: pointer;
 	font-family: helvetica,Arial,sans-serif;
+	color:white;
 }
 
 .toggle-content {
 	display: none;
 	font-family: helvetica,Arial,sans-serif;
+	color:white;
 
 }
 
 .toggle-project {
 	cursor: pointer;
 	font-family: helvetica,Arial,sans-serif;
+	color:white;
 
 }
 
 .details {
 	padding:10px;
+	color:white;
 }
 
 /*img {
