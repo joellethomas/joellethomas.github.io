@@ -45,6 +45,9 @@ $( ".title-h" ).click(function() {
   $( ".toggle-h" ).slideToggle( "slow" );
 });
 
+$( "salama" ).click(function() {
+  $( "salama" ).slideToggle( "slow" );
+});
 
 
 

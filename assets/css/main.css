@@ -15,6 +15,14 @@ img {
 	display: block;
 }
 
+.title-a {
+/*	background-color: blue;*/
+}
+
+.maincolour
+
+
+
 .title {
 	font-size: 30vw;
 	text-align: center;
@@ -26,27 +34,6 @@ img {
 	background-color: lightgray
 	color:white;
 }
-
-/*slide in from left*/
-
-/*.menu {
-	position:fixed;
-	top:0px;
-	left:0px;
-	width:50%;
-	height:100%;
-	background-color:lime;
-	margin-left:-50%;
-	transition:0.5s;
-}
-
-.menu.left {
-	margin-left:0%;
-	transition:0.5s;
-}*/
-
-
-/*slide up*/
 
 .menu {
 	position:fixed;
@@ -85,8 +72,6 @@ img {
 	display:none;
 	align-items:center;
 	justify-content:center;
-
-
 }
 
 .popup.active {
