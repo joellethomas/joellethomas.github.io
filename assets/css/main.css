@@ -15,8 +15,29 @@ img {
 	display: block;
 }
 
-.title-a {
-/*	background-color: blue;*/
+.red {
+	opacity: 80%;
+	font-size: 80%;
+}
+
+.title-a:hover	{
+	color:#d2232a;
+}
+
+.title-b:hover	{
+	color:#3e8234;
+}
+
+.title-c:hover	{
+	color:#fe21fa;
+}
+
+.title-d:hover	{
+	color:#f1eb00;
+}
+
+.title-e:hover	{
+	color:#f6d6d9;
 }
 
 .maincolour
